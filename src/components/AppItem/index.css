@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-list {
+  list-style: none;
+  background-color: #ffffff;
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+img {
+  width: 75px;
+  height: auto;
+  margin: 10px;
+}
+.app-title {
+  margin: 10px;
+  font-size: 16px;
+  font-family: Bree Serif;
+}
+@media screen and (min-width: 300px) {
+  .app-list {
+    width: 80px;
+    height: 80px;
+  }
+  img {
+    width: 30px;
+  }
+  .app-title {
+    font-size: 8px;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .app-list {
+    width: 100px;
+    height: 100px;
+  }
+  img {
+    width: 35px;
+  }
+  .app-title {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .app-list {
+    width: 120px;
+    height: 120px;
+  }
+  img {
+    width: 45px;
+  }
+  .app-title {
+    font-size: 11px;
+    margin-top: 6px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .app-list {
+    width: 130px;
+    height: 130px;
+  }
+  img {
+    width: 55px;
+  }
+  .app-title {
+    font-size: 13px;
+    margin-top: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .app-list {
+    width: 140px;
+    height: 140px;
+  }
+  img {
+    width: 65px;
+  }
+  .app-title {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}

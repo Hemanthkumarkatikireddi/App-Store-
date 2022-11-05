@@ -1,0 +1,100 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+}
+.content-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+}
+.heading {
+  margin-top: 15px;
+  font-family: Bree Serif;
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+.input-container {
+  display: flex;
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.search-input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 568px) {
+  .heading {
+    font-size: 30px;
+  }
+  .search-input {
+    width: 220px;
+    font-size: medium;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+  .search-input {
+    width: 230px;
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 40px;
+  }
+  .search-input {
+    width: 250px;
+    font-size: large;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .heading {
+    font-size: 50px;
+  }
+  .search-input {
+    width: 300px;
+    font-size: large;
+  }
+}
+.search-img {
+  width: 40px;
+  padding: 10px;
+  background-color: #ffff;
+  background-color: transparent;
+}
+.tab-container {
+  margin: 20px 0px;
+}
+.tabs-main {
+  display: flex;
+}
+
+/*app-item*/
+.app-container {
+  padding: 10px;
+}
+.app-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}

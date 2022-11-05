@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.tabs-list {
+  list-style: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  padding: 12px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #b9babb;
+  color: #7b8794;
+  outline: none;
+}
+.isActive {
+  background-color: transparent;
+  color: #2563eb;
+  border: none;
+  font-size: 17px;
+  padding: 10px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #2563eb;
+}
+p {
+  font-weight: bold;
+}
